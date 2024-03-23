@@ -10,17 +10,21 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Bonjour je suis <GradientText>Loan</GradientText> 👋
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
+          J'ai une chaine youtube de jeu retro et de roblox{' '}
+          <a
+            className='text-cyan-400 hover:underline'
+            href='/'>
             malesuada
           </a>{' '}
           nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
+          <a
+            className='text-cyan-400 hover:underline'
+            href='/'>
             consectetur
           </a>{' '}
           adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
@@ -28,41 +32,52 @@ const Hero = () => (
       }
       avatar={
         <img
-          className="h-80 w-64"
-          src="/assets/images/avatar.svg"
-          alt="Avatar image"
-          loading="lazy"
+          className='h-80 w-80 rounded-full object-cover object-center shadow-lg'
+          src='/assets/images/avatar.png'
+          alt='Avatar image'
+          loading='lazy'
         />
       }
       socialButtons={
         <>
-          <a href="/">
+          <a href='/'>
             <HeroSocial
-              src="/assets/images/twitter-icon.png"
-              alt="Twitter icon"
+              src='/assets/images/twitter-icon.png'
+              alt='Twitter icon'
             />
           </a>
-          <a href="/">
+          <a href='/'>
             <HeroSocial
-              src="/assets/images/facebook-icon.png"
-              alt="Facebook icon"
+              src='/assets/images/facebook-icon.png'
+              alt='Facebook icon'
             />
           </a>
-          <a href="/">
+          <a href='/'>
             <HeroSocial
-              src="/assets/images/linkedin-icon.png"
-              alt="Linkedin icon"
+              src='/assets/images/linkedin-icon.png'
+              alt='Linkedin icon'
             />
           </a>
-          <a href="/">
+          <a
+            href='https://www.youtube.com/@Loann_roblox'
+            target='_blank'>
             <HeroSocial
-              src="/assets/images/youtube-icon.png"
-              alt="Youtube icon"
+              src='/assets/images/youtube-icon.png'
+              alt='Youtube icon'
             />
           </a>
         </>
       }
     />
+    <iframe
+      src='https://www.retrogames.cc/embed/8805-hyper-street-fighter-2%3A-the-anniversary-edition-031222-japan.html'
+      width='600'
+      height='450'
+      frameborder='no'
+      allowfullscreen='true'
+      webkitallowfullscreen='true'
+      mozallowfullscreen='true'
+      scrolling='no'></iframe>
   </Section>
 );
 
